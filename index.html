@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://use.fontawesome.com/efff5ee4a8.js"></script>
   <script src="https://kit.fontawesome.com/6c9810a239.js" crossorigin="anonymous"></script>
   <title>NYT article</title>
   <link rel="stylesheet" href="style.css">
@@ -12,12 +13,15 @@
   <header>
     <nav class="nav">
       <ul class="menu-bar">
-        <li><a href="#"><img class="image"src="./images/menu.png" alt="menu"></a></li>
-        <li><a href="#"><img  class="image" src="./images/search.png" alt="search"></li></a>
+        <li><a href="#"><img class="image" src="./images/menu.png" alt="menu"></a></li>
+        <li><a href="#"><img class="image" src="./images/search.png" alt="search"></a></li>
         <li class="space"><a href="#" class="image">SPACE & COSMOS</a></li>  
       </ul>
 
-  <div class="title"><a href="#"><img src="./images/times.png" alt="newyork-time-logo"></a></div>
+  <div class="title">
+    <a href="#"><img class="img1" src="./images/times.png" alt="newyork-time-logo"></a>
+    <a href="#"><svg class="img2" viewBox="0 0 10 13"><path fill="#000" d="M9.9,8c-0.4,1.1-1.2,1.9-2.3,2.4V8l1.3-1.2L7.6,5.7V4c1.2-0.1,2-1,2-2c0-1.4-1.3-1.9-2.1-1.9c-0.2,0-0.3,0-0.6,0.1v0.1c0.1,0,0.2,0,0.3,0c0.5,0,0.9,0.2,0.9,0.7c0,0.4-0.3,0.7-0.8,0.7C6,1.7,4.5,0.6,2.8,0.6c-1.5,0-2.5,1.1-2.5,2.2C0.3,4,1,4.3,1.6,4.6l0-0.1C1.4,4.4,1.3,4.1,1.3,3.8c0-0.5,0.5-0.9,1-0.9C3.7,2.9,6,4,7.4,4h0.1v1.7L6.2,6.8L7.5,8v2.4c-0.5,0.2-1.1,0.3-1.7,0.3c-2.2,0-3.6-1.3-3.6-3.5c0-0.5,0.1-1,0.2-1.5l1.1-0.5V10l2.2-1v-5L2.5,5.5c0.3-1,1-1.7,1.8-2l0,0C2.2,3.9,0.1,5.6,0.1,8c0,2.9,2.4,4.8,5.2,4.8C8.2,12.9,9.9,10.9,9.9,8L9.9,8z"></path></svg></a>
+  </div>
 
     <div class="btn">
       <button class="button-subscribe">SUBSCRIBE NOW</button>
@@ -39,8 +43,7 @@
         of inflation, which explains how the universe expanded so uniformly and
         so quickly in the instant after the Big Bang 13.8 billion years
         ago.Credit...<span class="author"
-          >Rick Friedman for The New York Times</span
-        >
+          >Rick Friedman for The New York Times</span>
       </figure>
     </section>
     <div class="layout">
@@ -176,8 +179,8 @@
         </div>
       </article>
     </div>
-    <h3 class="sec_author">The Theory of Inflation</h3>
     <div class="inflation-container">
+      <h3 id="sec_author">The Theory of Inflation</h3>
       
     <div id="inflation">
       <p><strong>THE UNIVERSE </strong> is just under 14 billion years old. From our position in the Milky Way galaxy, we can observe a sphere that is now about 92 billion light-years across. But there's a mystery. Wherever we look, the universe has an even temperature</p>
@@ -191,13 +194,9 @@
       <p><strong>EXPANSION </strong> Returning to our coffee, imagine a single, central pot expanding faster than light and cooling to an even temperature as it expands. That is something like inflation. And the structure of the universe mirrors the froth and foam of the original pot.</p>
     </div>
     </div>
-    <div class="sec_author">
-      <hr class="sec-author-hr">
+    <div class="inflation-container">
       <h5 class="sec-author">By LARRY BUCHANAN and JONATHAN CORUM</h5>
     </div>
-     
-    
-   
   <article class="article">
     <br>
     <div class="paragraph">
@@ -262,8 +261,8 @@
     </div>
   </article>
   <section class="section-last">
-    <div class="more-links">
-      <div class="line-after"></div>
+     <div class="more-links">
+     <div class="line-after"></div>
       <div class="more-info">More In Space and Astronomy</div>
       <div class="more-webpages">
         <div class="link-1">
@@ -327,7 +326,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> 
     <aside class="aside-2">
       <div class="most-popular">
         <div class="line-after"></div>
@@ -481,6 +480,12 @@
         <li><a href="">Subscriptions</a></li>
       </ul>
     </div>
+  </footer>
+  <footer class="bottom-footer">
+        <div class="fixed-footer">
+          <p class="accept">Accept more than of the Times by creating a free account or loging in</p>
+          <p class="expand">EXPAND <i class="fas fa-angle-up"></i></p>
+        </div> 
   </footer>
 </main>
   </body>
